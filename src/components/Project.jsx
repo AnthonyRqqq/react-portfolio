@@ -1,4 +1,4 @@
-export default function Project({ project }) {
+export default function Project(project) {
     return (
         <div className='container'>
             <h3>Projects</h3>

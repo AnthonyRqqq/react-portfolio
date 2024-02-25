@@ -6,30 +6,33 @@ function Navigation() {
 
     return (
         <ul className='nav'>
+            {/* Link to homepage */}
             <li className='nav-item'>
                 <Link
-                    // Navigation link to another url
                     to='/'
                     // Checks current page url and if matching sets the nav-link to active status
                     className={currentPage === '/' ? 'nav-link active' : 'nav-link'}
                 >About Me</Link>
             </li>
+            {/* Link to portfolio page */}
             <li className='nav-item'>
                 <Link
                     to='/Portfolio'
-                    className={currentPage === '/' ? 'nav-link active' : 'nav-link'}
+                    className={currentPage === '/Portfolio' ? 'nav-link active' : 'nav-link'}
                 >Portfolio</Link>
             </li>
+            {/* Link to contact info page */}
             <li className='nav-item'>
                 <Link
                     to='/Contact'
-                    className={currentPage === '/' ? 'nav-link active' : 'nav-link'}
+                    className={currentPage === '/Contact' ? 'nav-link active' : 'nav-link'}
                 >Contact</Link>
             </li>
+            {/* Link to resume page */}
             <li className='nav-item'>
                 <Link
                     to='/Resume'
-                    className={currentPage === '/' ? 'nav-link active' : 'nav-link'}
+                    className={currentPage === '/Resume' ? 'nav-link active' : 'nav-link'}
                 >Resume</Link>
             </li>
         </ul>
