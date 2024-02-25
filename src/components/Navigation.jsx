@@ -5,7 +5,11 @@ function Navigation() {
     const currentPage = useLocation().pathName;
 
     return (
-        <ul className='nav'>
+        <div className='row'>
+        <h1 className='col justify-content-start'>
+            Anthony Rosati
+        </h1>
+        <ul className='nav col justify-content-end'>
             {/* Link to homepage */}
             <li className='nav-item'>
                 <Link
@@ -36,6 +40,7 @@ function Navigation() {
                 >Resume</Link>
             </li>
         </ul>
+        </div>
     );
 }
 

@@ -4,10 +4,12 @@ import Navigation from './components/Navigation';
 export default function App() {
   return (
     <>
-    <Navigation />
-    <main className='mx-3'>
-      <Outlet />
-    </main>
+      <header>
+        <Navigation />
+      </header>
+      <main className='mx-3'>
+        <Outlet />
+      </main>
     </>
   )
 }
