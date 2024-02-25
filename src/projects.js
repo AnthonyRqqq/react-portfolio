@@ -5,11 +5,13 @@ const projects = [
         name: 'TasteBuds',
         githubURL: 'https://github.com/Aaron-Heath/tastebuds',
         deployedURL: 'https://tastebuds-app-de96bd264a71.herokuapp.com/',
+        screenshot: './assets/projectImages/tastebuds.jpg'
     },
     {
         name: 'Box Office Dojo',
         githubURL: 'https://github.com/Mb739132/Box-Office-Dojo',
         deployedURL: 'https://mb739132.github.io/Box-Office-Dojo/',
+        screenshot: './assets/projectImages/tastebuds.jpg'
     },
     {
         name: 'Weather Dashboard',
