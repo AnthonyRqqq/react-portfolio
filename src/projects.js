@@ -1,3 +1,6 @@
+import dojoScreenshot from './assets/images/projectImages/dojo.jpg'
+import tastebudsScreenshot from './assets/images/projectImages/tastebuds.jpg'
+
 
 // List of project data to be displayed
 const projects = [
@@ -5,13 +8,15 @@ const projects = [
         name: 'TasteBuds',
         githubURL: 'https://github.com/Aaron-Heath/tastebuds',
         deployedURL: 'https://tastebuds-app-de96bd264a71.herokuapp.com/',
-        screenshot: './assets/projectImages/tastebuds.jpg'
+        screenshot: tastebudsScreenshot,
+        imageText: 'tastebuds screenshot'
     },
     {
         name: 'Box Office Dojo',
         githubURL: 'https://github.com/Mb739132/Box-Office-Dojo',
         deployedURL: 'https://mb739132.github.io/Box-Office-Dojo/',
-        screenshot: './assets/projectImages/tastebuds.jpg'
+        screenshot: dojoScreenshot,
+        imageText: 'box office dojo screenshot'
     },
     {
         name: 'Weather Dashboard',
