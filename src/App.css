@@ -69,4 +69,21 @@ footer * {
     transition: opacity 0.3s ease;
 }
 
+.form-div {
+    margin-right: 20px;
+}
+
+.contact-form input{
+    padding: 5px;
+    margin: 5px;
+    background-color: white;
+}
+
+.message-input {
+    height: 300px
+}
+
+.contact-form button {
+    background-color: #6785cc;
+}
 

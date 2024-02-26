@@ -47,11 +47,11 @@ export default function Form() {
     };
 
     return (
-        <div>
+        <div className='form-div'>
             <h3 className='row justify-content-center'>Contact Me</h3>
             <form className='contact-form justify-content-center' onSubmit={handleFormSubmit}>
                 {/* Input field for a name */}
-                <div className='row justify-content-center'>
+                <div className='row col justify-content-center'>
                     <input
                         className='col-3'
                         value={name}
@@ -79,7 +79,7 @@ export default function Form() {
                 {/* Input field for a message */}
                 <div className='row justify-content-center'>
                     <input
-                        className='col-3'
+                        className='col-3 message-input'
                         value={message}
                         name='message'
                         onChange={handleInputChange}
@@ -94,7 +94,7 @@ export default function Form() {
             </form>
             {errorMessage && (
                 <div>
-                    <p  className='error-text row justify-content-center'>{errorMessage}</p>
+                    <p className='error-text row justify-content-center'>{errorMessage}</p>
                 </div>
             )};
         </div>
