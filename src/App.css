@@ -29,22 +29,44 @@ footer * {
     margin-top: 10px;
 }
 
+/* Removes bullet points */
 .project-list * {
     list-style: none;
+    overflow: hidden;
 }
 
 /* Manages the size of screenshot pictures */
 .project-screenshot {
-    max-width: auto;
-    max-height: 350px;
+    width: 100%;
+    height: 100%;
 }
 
+
+/* Greys out screenshot for links to be visible */
 .project-screenshot:hover {
     filter: contrast(30%) brightness(150%);
     transition: filter 0.3s ease;
 }
 
+/* Keeps github repo link image for individual projects from being too large */
 .project-github-link-image {
     max-height: 50px;
     max-width: auto;
 }
+
+/* Initially hides links */
+.project-li a {
+    visibility: hidden;
+    position: relative;
+    top: 50%;
+    left: 30%;
+
+}
+
+/* Displays link when appropriate screenshot is hovered */
+.project-li:hover a {
+    visibility: visible;
+    transition: opacity 0.3s ease;
+}
+
+
