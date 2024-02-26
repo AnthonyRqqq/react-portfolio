@@ -29,7 +29,22 @@ footer * {
     margin-top: 10px;
 }
 
-.project-li img {
+.project-list * {
+    list-style: none;
+}
+
+/* Manages the size of screenshot pictures */
+.project-screenshot {
     max-width: auto;
     max-height: 350px;
+}
+
+.project-screenshot:hover {
+    filter: contrast(30%) brightness(150%);
+    transition: filter 0.3s ease;
+}
+
+.project-github-link-image {
+    max-height: 50px;
+    max-width: auto;
 }
