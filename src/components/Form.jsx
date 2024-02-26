@@ -48,46 +48,53 @@ export default function Form() {
 
     return (
         <div>
-            <h3>Contact Me</h3>
-            <form className='form' onSubmit={handleFormSubmit}>
+            <h3 className='row justify-content-center'>Contact Me</h3>
+            <form className='contact-form justify-content-center' onSubmit={handleFormSubmit}>
                 {/* Input field for a name */}
-                <input
-                    value={name}
-                    name='name'
-                    onChange={handleInputChange}
-                    onBlur={handleInputBlur}
-                    type='text'
-                    placeholder='name'
-                    required
-                />
+                <div className='row justify-content-center'>
+                    <input
+                        className='col-3'
+                        value={name}
+                        name='name'
+                        onChange={handleInputChange}
+                        onBlur={handleInputBlur}
+                        type='text'
+                        placeholder='name'
+                        required
+                    /></div>
 
                 {/* Input field for email */}
-                <input
-                    value={email}
-                    name='email'
-                    onChange={handleInputChange}
-                    onBlur={handleInputBlur}
-                    type='email'
-                    placeholder='email'
-                    required
-                />
+                <div className='row justify-content-center'>
+                    <input
+                        className='col-3'
+                        value={email}
+                        name='email'
+                        onChange={handleInputChange}
+                        onBlur={handleInputBlur}
+                        type='email'
+                        placeholder='email'
+                        required
+                    /></div>
 
                 {/* Input field for a message */}
-                <input
-                    value={message}
-                    name='message'
-                    onChange={handleInputChange}
-                    onBlur={handleInputBlur}
-                    type='text'
-                    placeholder='message'
-                    required
-                />
+                <div className='row justify-content-center'>
+                    <input
+                        className='col-3'
+                        value={message}
+                        name='message'
+                        onChange={handleInputChange}
+                        onBlur={handleInputBlur}
+                        type='text'
+                        placeholder='message'
+                        required
+                    /></div>
 
-                <button type='submit'>Submit</button>
+                <div className='row justify-content-center'>
+                    <button className='col-1 justify-content-center' type='submit'>Submit</button></div>
             </form>
             {errorMessage && (
                 <div>
-                    <p className='error-text'>{errorMessage}</p>
+                    <p  className='error-text row justify-content-center'>{errorMessage}</p>
                 </div>
             )};
         </div>
