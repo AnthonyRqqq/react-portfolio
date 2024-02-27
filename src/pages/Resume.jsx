@@ -3,7 +3,7 @@ import resumeDownload from '../assets/Anthony-Rosati-Resume.pdf'
 export default function Resume() {
     return (
         <div className='row resume'>
-            <h4 className='d-flex justify-content-center'>Resume</h4>
+            <h3 className='d-flex justify-content-center'>Resume</h3>
             {/* Downloadable resume */}
             <p className='d-flex justify-content-center download-resume'>Download my resume&nbsp;
                 <a href={resumeDownload} download>here.</a>

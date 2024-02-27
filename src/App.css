@@ -5,7 +5,7 @@
 }
 
 header {
-    padding: 40px;
+    padding: 20px;
     background-color: #37476d;
 }
 
@@ -107,8 +107,10 @@ footer * {
     margin-right: 20px;
 }
 
-.resume h4{
-    margin-top: 20px;
+.resume h3,
+.form-div h3,
+.project-list-container h3 {
+    padding-top: 20px;
 }
 .download-resume {
     font-size: larger;
@@ -121,4 +123,18 @@ footer * {
 
 .main {
     height: 100vh
+}
+
+
+.project-list-container a {
+    font-size: x-large;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: grey;
 }
