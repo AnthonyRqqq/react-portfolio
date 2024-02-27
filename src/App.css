@@ -59,8 +59,7 @@ footer * {
 }
 
 .message-input {
-    height: 300px;
-    overflow-x: hidden;
+    overflow-x: auto;
     overflow-y: auto;
     vertical-align: top;
 }
