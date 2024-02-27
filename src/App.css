@@ -1,7 +1,5 @@
 * {
     box-sizing: border-box;
-    padding: 0;
-    margin: 0;
     background-color: rgb(230, 218, 202);
     font-family: American Typewriter, serif;
 }
@@ -123,4 +121,20 @@ footer * {
 
 .about-me-text {
     align-self: center;
+}
+
+.resume {
+    margin-right: 20px;
+}
+
+.resume h4{
+    margin-top: 20px;
+}
+.download-resume {
+    font-size: larger;
+}
+
+.front-end-list,
+.back-end-list {
+    font-size: larger;
 }

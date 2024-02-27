@@ -17,7 +17,7 @@ export default function App() {
       </main>
 
       {/* Locks footer at bottom of page and centers */}
-      <footer className='footer fixed-bottom d-flex justify-content-center'>
+      <footer className='footer d-flex justify-content-center'>
         <Footer />
       </footer>
     </>

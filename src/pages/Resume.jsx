@@ -2,16 +2,19 @@ import resumeDownload from '../assets/Anthony-Rosati-Resume.pdf'
 
 export default function Resume() {
     return (
-        <div>
-            <h3>Resume Page</h3>
+        <div className='row resume'>
+            <h4 className='d-flex justify-content-center'>Resume</h4>
             {/* Downloadable resume */}
-            <p>Download my resume
-                <a href={resumeDownload} download> here.</a>
+            <p className='d-flex justify-content-center download-resume'>Download my resume&nbsp;
+                <a href={resumeDownload} download>here.</a>
             </p>
 
             {/* Front end skills list */}
-            <div>
+            <div className='d-flex justify-content-center'>
                 <h4>Front End Proficiencies</h4>
+            </div>
+
+            <div className='d-flex front-end-list justify-content-center'>
                 <ul>
                     <li>HTML</li>
                     <li>CSS</li>
@@ -24,8 +27,10 @@ export default function Resume() {
             </div>
 
             {/* Back end skills list */}
-            <div>
+            <div className='d-flex justify-content-center'>
                 <h4>Back End Proficiences</h4>
+            </div>
+            <div className='d-flex back-end-list justify-content-center'>
                 <ul>
                     <li>APIs</li>
                     <li>Node</li>
