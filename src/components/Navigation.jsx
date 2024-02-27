@@ -15,28 +15,29 @@ function Navigation() {
                 <Link
                     to='/'
                     // Checks current page url and if matching sets the nav-link to active status
-                    className={currentPage === '/' ? 'nav-link active' : 'nav-link'}
+                    className={`${currentPage === '/' ? 'nav-link active-link' : 'nav-link'} link-item`}
+
                 >About Me</Link>
             </li>
             {/* Link to portfolio page */}
             <li className='nav-item'>
                 <Link
                     to='/Portfolio'
-                    className={currentPage === '/Portfolio' ? 'nav-link active' : 'nav-link'}
+                    className={`${currentPage === '/' ? 'nav-link active' : 'nav-link'} link-item`}
                 >Portfolio</Link>
             </li>
             {/* Link to contact info page */}
             <li className='nav-item'>
                 <Link
                     to='/Contact'
-                    className={currentPage === '/Contact' ? 'nav-link active' : 'nav-link'}
+                    className={`${currentPage === '/' ? 'nav-link active' : 'nav-link'} link-item`}
                 >Contact</Link>
             </li>
             {/* Link to resume page */}
             <li className='nav-item'>
                 <Link
                     to='/Resume'
-                    className={currentPage === '/Resume' ? 'nav-link active' : 'nav-link'}
+                    className={`${currentPage === '/' ? 'nav-link active' : 'nav-link'} link-item`}
                 >Resume</Link>
             </li>
         </ul>

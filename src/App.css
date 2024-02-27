@@ -1,21 +1,21 @@
 * {
     box-sizing: border-box;
-    background-color: rgb(230, 218, 202);
+    background-color: #e5e4ed;
     font-family: American Typewriter, serif;
 }
 
 header {
     padding: 20px;
-    background-color: #37476d;
+    background-color: #a9acd6;
 }
 
 footer {
-    background-color: #37476d;
+    background-color: #a9acd6;
 }
 
 header *,
 footer * {
-    background-color: #37476d;
+    background-color: #a9acd6;
 }
 
 /* Styling for footer logos */
@@ -65,14 +65,14 @@ footer * {
 }
 
 .contact-form button {
-    background-color: #6785cc;
+    background-color: #a9acd6;
 }
 
 /* Sizing for profile picture on About page */
 .profile-picture {
     max-width: 300px;
     max-height: auto;
-    border: solid; color: #3A445D;
+    border: solid; color: #6373a1;
     border-radius: 20%;
     border-width: 10px;
 }
@@ -137,4 +137,16 @@ a {
 
 a:hover {
     color: grey;
+}
+
+.link-item {
+    color: black !important;
+}
+
+.link-item:hover {
+    color: grey !important;
+}
+
+.active-link {
+    color: grey !important;
 }
