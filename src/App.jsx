@@ -16,7 +16,7 @@ export default function App() {
         <Outlet />
       </main>
 
-      <footer className='footer d-flex justify-content-center'>
+      <footer>
         <Footer />
       </footer>
     </>

@@ -6,6 +6,7 @@ import linkedinLogo from '../assets/images/footerImages/linkedin.jpg'
 
 export default function Footer() {
     return (
+        <div className='footer d-flex justify-content-center fixed-bottom'>
         <ul className='logo-list row'>
             {/* Render individual logos with appropriate links, opens new tab when clicked */}
             <li className='col-4'>
@@ -24,5 +25,6 @@ export default function Footer() {
                 </a>
             </li>
         </ul>
+        </div>
     );
 };
