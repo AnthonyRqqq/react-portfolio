@@ -90,3 +90,37 @@ footer * {
     background-color: #6785cc;
 }
 
+/* Sizing for profile picture on About page */
+.profile-picture {
+    max-width: 300px;
+    max-height: auto;
+    border: solid; color: #3A445D;
+    border-radius: 20%;
+    border-width: 10px;
+}
+
+/* Centers About me picture div */
+.about-me-picutre {
+    align-self: center;
+}
+
+.about-me {
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px
+}
+
+.about-subheader {
+    margin-bottom: 20px;
+}
+
+/* Centers text on About page */
+.about-me p {
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+}
+
+.about-me-text {
+    align-self: center;
+}

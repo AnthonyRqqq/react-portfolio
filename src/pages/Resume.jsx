@@ -23,6 +23,7 @@ export default function Resume() {
                 </ul>
             </div>
 
+            {/* Back end skills list */}
             <div>
                 <h4>Back End Proficiences</h4>
                 <ul>
