@@ -1,5 +1,10 @@
+// Import screenshots
 import dojoScreenshot from './assets/images/projectImages/dojo.jpg'
 import tastebudsScreenshot from './assets/images/projectImages/tastebuds.jpg'
+import javascriptScreenshot from './assets/images/projectImages/javascriptQuiz.jpg'
+import plannerScreenshot from './assets/images/projectImages/planner.jpg'
+import randomPasswordScreenshot from './assets/images/projectImages/randomPassword.jpg'
+import weatherDashboardScreenshot from './assets/images/projectImages/weatherDashboard.jpg'
 
 
 // List of project data to be displayed
@@ -19,16 +24,33 @@ const projects = [
         imageText: 'box office dojo screenshot'
     },
     {
+        name: 'JavaScript Quiz',
+        githubURL: 'https://github.com/AnthonyRqqq/js-timed-quiz',
+        deployedURL: 'https://anthonyrqqq.github.io/js-timed-quiz/',
+        screenshot: javascriptScreenshot,
+        imageText: 'screenshot of a timed javascript quiz'
+    },
+    {
+        name: 'Work Day Scheduler',
+        githubURL: 'https://github.com/AnthonyRqqq/work-day-scheduler',
+        deployedURL: 'https://anthonyrqqq.github.io/work-day-scheduler/',
+        screenshot: plannerScreenshot,
+        imageText: 'screenshot of a work day scheduler'
+    },
+    {
+        name: 'Random Password Generator',
+        githubURL: 'https://github.com/AnthonyRqqq/random-password-generator',
+        deployedURL: 'https://anthonyrqqq.github.io/random-password-generator/',
+        screenshot: randomPasswordScreenshot,
+        imageText: 'screenshot of a random password generator'
+    },
+    {
         name: 'Weather Dashboard',
         githubURL: 'https://github.com/AnthonyRqqq/weather-dashboard',
         deployedURL: 'https://anthonyrqqq.github.io/weather-dashboard/',
-    },
-    {
-        name: 'SVG Logo Maker',
-        githubURL: 'https://github.com/AnthonyRqqq/svg-logo-make',
-        // No front-end visibility, same link to github for convenience in react formatting
-        deployedURL: 'https://github.com/AnthonyRqqq/svg-logo-make',
-    },
+        screenshot: weatherDashboardScreenshot,
+        imageText: 'screenshot of a weather dashboard'
+    }
 ]
 
 export default projects;

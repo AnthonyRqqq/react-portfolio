@@ -35,15 +35,8 @@ footer * {
 
 /* Manages the size of screenshot pictures */
 .project-screenshot {
-    width: 100%;
-    height: 100%;
-}
-
-
-/* Greys out screenshot for links to be visible */
-.project-screenshot:hover {
-    filter: contrast(30%) brightness(150%);
-    transition: filter 0.3s ease;
+    width: 70%;
+    height: auto;
 }
 
 /* Keeps github repo link image for individual projects from being too large */
@@ -52,21 +45,9 @@ footer * {
     max-width: auto;
 }
 
-/* Initially hides links */
-.project-li a {
-    visibility: hidden;
-    position: relative;
-    top: 50%;
-    left: 30%;
-
+.project-links-div * {
+    margin: 5px
 }
-
-/* Displays link when appropriate screenshot is hovered */
-.project-li:hover a {
-    visibility: visible;
-    transition: opacity 0.3s ease;
-}
-
 .form-div {
     margin-right: 20px;
 }
@@ -137,4 +118,8 @@ footer * {
 .front-end-list,
 .back-end-list {
     font-size: larger;
+}
+
+.main {
+    height: 100vh
 }

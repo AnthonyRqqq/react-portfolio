@@ -12,11 +12,10 @@ export default function App() {
         </h3>
       </header>
 
-      <main>
+      <main className='main'>
         <Outlet />
       </main>
 
-      {/* Locks footer at bottom of page and centers */}
       <footer className='footer d-flex justify-content-center'>
         <Footer />
       </footer>
