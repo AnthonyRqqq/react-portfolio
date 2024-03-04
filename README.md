@@ -16,7 +16,7 @@
     
  This is my professional portfolio showcasing some of my completed projects as well as my resume, links to profiles on other sites such as LinkedIn, and a method of leaving a message through the portfolio page itself.
     
-[A link to the portfolio can be found here.](https://65de5f3375e69300098464bf--anthony-rosati-portfolio.netlify.app/)
+[A link to the portfolio can be found here.](https://65e65211d8534000081fbc57--anthony-rosati-portfolio.netlify.app/)
 
 ## Usage
     
