@@ -27,12 +27,12 @@ function Navigation() {
                 >Portfolio</Link>
             </li>
             {/* Link to contact info page */}
-            <li className='nav-item'>
+            {/* <li className='nav-item'>
                 <Link
                     to='/Contact'
                     className={`${currentPage === '/' ? 'nav-link active' : 'nav-link'} link-item`}
                 >Contact</Link>
-            </li>
+            </li> */}
             {/* Link to resume page */}
             <li className='nav-item'>
                 <Link
