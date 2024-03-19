@@ -5,6 +5,7 @@ import javascriptScreenshot from './assets/images/projectImages/javascriptQuiz.j
 import plannerScreenshot from './assets/images/projectImages/planner.jpg'
 import randomPasswordScreenshot from './assets/images/projectImages/randomPassword.jpg'
 import weatherDashboardScreenshot from './assets/images/projectImages/weatherDashboard.jpg'
+import gighubScreenshot from './assets/images/projectImages/gighub.jpg'
 
 
 // List of project data to be displayed
@@ -24,6 +25,13 @@ const projects = [
         imageText: 'box office dojo screenshot'
     },
     {
+        name: 'Gighub',
+        githubURL: 'https://github.com/Aaron-Heath/gighub',
+        deployedURL: 'https://gighub-v82p.onrender.com/',
+        screenshot: gighubScreenshot,
+        imageText: 'gighub screenshot'
+    },
+    {
         name: 'JavaScript Quiz',
         githubURL: 'https://github.com/AnthonyRqqq/js-timed-quiz',
         deployedURL: 'https://anthonyrqqq.github.io/js-timed-quiz/',
@@ -36,13 +44,6 @@ const projects = [
         deployedURL: 'https://anthonyrqqq.github.io/work-day-scheduler/',
         screenshot: plannerScreenshot,
         imageText: 'screenshot of a work day scheduler'
-    },
-    {
-        name: 'Random Password Generator',
-        githubURL: 'https://github.com/AnthonyRqqq/random-password-generator',
-        deployedURL: 'https://anthonyrqqq.github.io/random-password-generator/',
-        screenshot: randomPasswordScreenshot,
-        imageText: 'screenshot of a random password generator'
     },
     {
         name: 'Weather Dashboard',
